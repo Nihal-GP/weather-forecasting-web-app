@@ -1,5 +1,5 @@
 ©Developer - Nihal Mali
-![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
+![JavaScript][HTML][CSS](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
 # weather forecasting web app
 # Features:-
 1. Location Search: Users can enter a city name or ZIP code to search for weather information.
