@@ -1,6 +1,5 @@
 ©Developer - Nihal Mali
-![HTML](https://img.shields.io/badge/Language-HTML-orange.svg)
-![CSS](https://img.shields.io/badge/Language-CSS-blue.svg)
+![HTML](https://img.shields.io/badge/Language-HTML-orange.svg)![CSS](https://img.shields.io/badge/Language-CSS-blue.svg)
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
 # weather forecasting web app
 # Features:-
