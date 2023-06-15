@@ -1,6 +1,6 @@
-©Developer - Nihal Mali <br>
- ![HTML](https://img.shields.io/badge/HTML-orange.svg) | ![CSS](https://img.shields.io/badge/CSS-blue.svg) | ![JavaScript](https://img.shields.io/badge/JavaScript-yellow.svg) 
-# weather forecasting web app
+©Developer - Nihal Mali
+# weather forecasting web app<br>
+![HTML](https://img.shields.io/badge/HTML-orange.svg) | ![CSS](https://img.shields.io/badge/CSS-blue.svg) | ![JavaScript](https://img.shields.io/badge/JavaScript-yellow.svg) 
 # Features:-
 1. Location Search: Users can enter a city name or ZIP code to search for weather information.
 2. Current Weather: The app displays the current weather conditions, including temperature, humidity, wind speed, and weather description.
