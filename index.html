@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Linking BoxIcon for Icon -->
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-...some integrity hash..." crossorigin="anonymous">
-
-    <!-- favicon -->
     <link rel="icon" href="icons/cloudy.png" />
-    <title>Weather Forecasting Web App</title>
+    <title>Weather Forecasting in javascript using api</title>
   </head>
   <body class="bg" background="icons/img5.jpg">
-    <!-- main content -->
     <div class="wrapper">
-      <header><i class="bx bx-left-arrow-alt"></i>Weather Forecasting Web App</header>
+      <header><i class="bx bx-left-arrow-alt"></i>Weather Forecasting </header>
       <section class="input-part">
         <p class="info-txt"></p>
         <div class="content">
@@ -28,7 +23,7 @@
             placeholder="Enter City Name..."
             required
           />
-          <div class="search"><i class="fa fa-search" ></i></div>
+          <div class="search"><i class="bx bx-search" ></i></div>
           <div class="separator"></div>
           <button id="autodetect">Auto-detect Your Location</button>
         </div>
@@ -37,7 +32,7 @@
         <img src="" alt="Weather Icon" />
         <div class="temp">
           <span class="numb">_</span>
-          <span class="deg">°</span>
+          <span class="deg">°</span>C
         </div>
         <div class="weather">_ _</div>
         <div class="location">
@@ -45,14 +40,13 @@
           <span>_, _</span>
         </div>
         <div class="bottom-details">
-          <div class="column feels">
-            <i class="bx bxs-thermometer"></i>
+          <div class="column windspeed">
+            <i class="bx bx-wind"></i>
             <div class="details">
               <div class="temp">
-                <span class="numb-2">_</span>
-                <span class="deg">°</span>C
+                <span>_</span>
               </div>
-              <p>Feels Like</p>
+              <p>Wind Speed</p>
             </div>
           </div>
           <div class="column humidity">
@@ -74,7 +68,7 @@
         <a href="https://github.com/Nihal-GP">GitHub</a>
       </p>
     </section>
-    <!--=========== SCRIPTS ===========-->
+    <!--SCRIPTS-->
     <script src="js/script.js"></script>
     <script src="js/api_key.js"></script>
   </body>
