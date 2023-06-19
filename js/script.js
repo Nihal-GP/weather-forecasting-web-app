@@ -18,7 +18,6 @@ searchBtn.addEventListener("click", () => {
 })
 
 inputField.addEventListener("keyup", (e) => {
-  // if user pressed enter btn and input value is not empty
   if (e.key == "Enter" && inputField.value != "") {
     requestApi(inputField.value);
   }
@@ -26,7 +25,6 @@ inputField.addEventListener("keyup", (e) => {
 
 locationBtn.addEventListener("click", () => {
   if (navigator.geolocation) {
-    // if browser support geolocation api
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
   } else {
     alert("Your browser not support geolocation api");
@@ -74,7 +72,8 @@ function weatherDetails(info) {
     const city = info.name;
     const country = info.sys.country;
     const { description, id } = info.weather[0];
-    const { temp, feels_like, humidity } = info.main;
+    const { temp, humidity } = info.main;
+    const windspeed = info.wind.speed;
 
     // using custom weather icon according to the id which api gives to us
     if (id == 800) {
@@ -97,8 +96,7 @@ function weatherDetails(info) {
     weatherPart.querySelector(
       ".location span"
     ).innerText = `${city}, ${country}`;
-    weatherPart.querySelector(".temp .numb-2").innerText =
-      Math.floor(feels_like);
+    weatherPart.querySelector(".windspeed .temp").innerText = `${windspeed} m/s`;
     weatherPart.querySelector(".humidity span").innerText = `${humidity}%`;
     infoTxt.classList.remove("pending", "error");
     infoTxt.innerText = "";
